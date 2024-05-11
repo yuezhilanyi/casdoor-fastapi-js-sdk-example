@@ -17,10 +17,10 @@ import App from './App.vue'
 import router from './route/index'
 import SDK from 'casdoor-js-sdk'
 const sdkConfig = {
-  serverUrl: "https://door.casdoor.com",
-  clientId: "294b09fbc17f95daf2fe",
-  organizationName: "casbin",
-  appName: "app-vue-python-example",
+  serverUrl: "http://10.3.11.208:8000",
+  clientId: "2d3877df0bdf2c421201",
+  organizationName: "fastapi_example",
+  appName: "fastapi-example",
   redirectPath: "/callback",
   signinPath: "/api/signin",
 }

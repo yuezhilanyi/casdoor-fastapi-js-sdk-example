@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-export let serverUrl = `http://localhost:5000`
+export let serverUrl = `http://10.6.20.147:5000`

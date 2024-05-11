@@ -29,7 +29,8 @@ async def post_signin(request: Request):
 
     sdk = request.app.state.CASDOOR_SDK
     token = sdk.get_oauth_token(code)
-    user = sdk.parse_jwt_token(token)
+    access_token = token.get("access_token")
+    user = sdk.parse_jwt_token(access_token)
     request.session["casdoorUser"] = user
 
     return {"status": "ok"}

@@ -97,6 +97,7 @@ CASDOOR_SDK = CasdoorSDK(
 For Linux:
 
   ```
+  user@machine:/casdoor-fastapi-js-sdk-example/web$ yarn build
   user@machine:/casdoor-fastapi-js-sdk-example/web$ yarn serve
   user@machine:/casdoor-fastapi-js-sdk-example$ ./venv/Scripts/python app.py
   ```
